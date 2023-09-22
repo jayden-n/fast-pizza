@@ -4,7 +4,7 @@ import Header from './Header';
 import Loader from './Loader';
 
 const AppLayout = () => {
-  // defaulting to an "idle" navigation when no navigation is in progress
+  // default is an "idle" navigation when no navigation is in progress
   const navigation = useNavigation();
   const isLoading = navigation.state === 'loading';
 
