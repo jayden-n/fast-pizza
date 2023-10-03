@@ -26,7 +26,7 @@ function CreateUser() {
       {username !== '' && (
         <div>
           <Link to="/order/new">
-            <Button>Start ordering</Button>
+            <Button type="primary">Start ordering</Button>
           </Link>
         </div>
       )}
