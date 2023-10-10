@@ -1,6 +1,7 @@
 import { useSelector } from 'react-redux';
 import CreateUser from '../features/user/CreateUser';
 import Button from './Button';
+import StackedCardTestimonials from './Testimonials';
 
 function Home() {
   const userName = useSelector((state) => state.user.username);
@@ -22,6 +23,7 @@ function Home() {
           Continue ordering, {userName}
         </Button>
       )}
+      <StackedCardTestimonials />
     </div>
   );
 }
