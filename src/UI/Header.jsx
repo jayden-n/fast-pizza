@@ -8,6 +8,7 @@ const Header = () => {
       <Link to="/" className="tracking-widest">
         Fast Pizza Co.
       </Link>
+
       <SearchOrder />
 
       <Username />

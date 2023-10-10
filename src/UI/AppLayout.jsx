@@ -19,6 +19,7 @@ const AppLayout = () => {
           <Outlet />
         </main>
       </div>
+
       <CartOverview />
     </div>
   );
