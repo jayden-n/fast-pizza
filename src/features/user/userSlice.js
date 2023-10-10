@@ -33,6 +33,7 @@ const userSlice = createSlice({
   initialState,
   reducers: {
     updateName(state, action) {
+      // payload will be a value from a dispatch()
       state.username = action.payload;
     },
   },
