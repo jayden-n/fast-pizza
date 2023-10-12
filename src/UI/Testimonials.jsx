@@ -1,14 +1,15 @@
+/* eslint-disable react/prop-types */
 import { motion } from 'framer-motion';
 
 const ScrollingTestimonials = () => {
   return (
     <div className="mt-12 rounded-lg bg-yellow-500 py-12">
       <div className="mb-8 px-4">
-        <h3 className="text-center text-4xl font-semibold  tracking-wide text-stone-800 ">
+        <h3 className="text-center text-xl font-semibold tracking-wide  text-stone-800 md:text-4xl ">
           Testimonials
         </h3>
         <p className="mx-auto mt-2 max-w-lg text-center text-sm text-stone-600 ">
-          Here's What Our Customers Have to Say
+          Here&apos;s What Our Customers Have to Say
         </p>
       </div>
       <div className="relative overflow-x-hidden p-4">
