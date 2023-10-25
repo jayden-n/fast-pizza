@@ -1,7 +1,20 @@
 # Fast Pizza 🍕
 
-> [!DESCRIPTION]
-> A product-minded E-commerce platform for a fictional pizza restaurant
+> A product-minded E-commerce platform for a fictional pizza restaurant.
+
+
+## Installation
+
+1. Clone the repository:
+`git clone https://github.com/jayden-n/fast-pizza.git`
+
+2. Navigate to the project directory:
+  `cd fast-pizza`
+
+3. Install dependencies: `npm ci` within the directory (to get all the required dependencies installed)
+
+4. Run & enjoy the App :) `npm run dev` & navigate to http://localhost:3000
+
 
 ## What problems does this app solve?
 
@@ -10,6 +23,7 @@
 - make order by complete form with phone, address (possible to use geolocation)
 - add order to priority queue by paying extra money
 - no payment processing
+
 
 ## Tech Features:
 
