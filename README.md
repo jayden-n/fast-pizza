@@ -42,6 +42,7 @@
 
 Third-party packages:
 
+- [Framer Motion](https://www.framer.com/motion)
 - [React Router](https://reactrouter.com/en/main)
 - [React Redux](https://react-redux.js.org/)
 
